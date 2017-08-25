@@ -1,5 +1,5 @@
 ---
-title: My First Game: Slider Puzzle
+title: "My First Game: Slider Puzzle"
 template: templates/post.pug
 date: 2013-12-05
 author: Lenin Hasda
