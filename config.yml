@@ -1,8 +1,8 @@
 siteTitle: lenin's blog
 dateFormat: MMM D, YYYY
 perPage: 5
-postDir: posts
 templateDir: templates
+cache: false
 
 # add menu items
 menu:
