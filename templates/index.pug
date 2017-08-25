@@ -17,4 +17,4 @@ block content
                     a(href=post.link)
                           h4
                             !=post.title
-                            span(class="text-muted" style="padding-left: 10px; font-size: 15px; font-style:italic")=post.date
+                            time(class="text-muted" style="padding-left: 10px; font-size: 15px; font-style:italic")=" / Published " + post.date
