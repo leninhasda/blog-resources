@@ -40,7 +40,7 @@ body {
 /* Customize container */
 @media (min-width: 48em) {
   .container {
-    max-width: 50%;
+    max-width: 60%;
   }
 }
 .container-narrow > hr {
@@ -82,4 +82,37 @@ body {
   .jumbotron {
     border-bottom: 0;
   }
+}
+a {
+  color: rgba(238, 110, 112, 1);
+}
+.post-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.post-list li {
+  margin: 0; padding: 0;
+  border-bottom: 1px solid rgba(0,0,0,.1);
+}
+.post-list li:last-child {
+  border:0;
+}
+.post-list h4 {
+  font-size: 1.2rem;
+  font-weight: 700;
+  color: #333;
+}
+.post-list h4 time {
+  padding-left: 7px;
+  font-size: 1rem;
+  font-style: italic;
+  font-weight: 500;
+}
+.post-list a {
+  display: block;
+  padding: 15px 0 10px 0;
+}
+.post-list a:hover {
+  background-color:  rgba(255, 236, 179, 0.5);
 }
