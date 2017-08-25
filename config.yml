@@ -1,15 +1,15 @@
 siteTitle: lenin's blog
-dateFormat: D MMM YYYY
+dateFormat: MMM D, YYYY
 perPage: 5
-postDir: articles
-templateDir: themes/theme-5
+postDir: posts
+templateDir: templates
 
 # add menu items
 menu:
   - name: blog
     link: /
   - name: root
-    link: /root
+    link: https://leninhasda.me
 
 # these are the config you don't want to change too often
 postRoute: post
