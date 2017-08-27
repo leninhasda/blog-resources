@@ -5,7 +5,7 @@ date: 2016-10-19
 author: Lenin Hasda
 ---
 
-Most of the time when I push local git changes to remote I do something like git push origin master or git push origin branch-name . But there are time when you might need to push local branch to remote but with a different name. Well you can do that with following line:
+Most of the time when I push local git changes to remote I do something like `git push origin master` or `git push origin branch-name`. But there are times when you might need to push local branch to remote but with a different name. Well you can do that with following line:
 
 ```
 git push origin local-branch-name:remote-branch-name
