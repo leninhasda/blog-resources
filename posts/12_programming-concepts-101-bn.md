@@ -9,7 +9,7 @@ author: Lenin Hasda
 
 প্রোগ্রামিং এর কোর কনসেপ্ট মাত্র কয়েকটা।  ল্যাঙ্গুয়েজ ভেদে অনেক ফিচার থাকতে পারে, কিন্তু এই কনসেপ্ট গুলো কম বেশি সব ল্যাঙ্গুয়েজেই পাওয়া  যাবে।
 
-- [ডেটা এবং ডেটা টাইপ](/post/13_programming-concepts-101-data-and-data-types-bn) 
+- [ডেটা এবং ডেটা টাইপ](/post/programming-concepts-101-data-and-data-types-bn) 
 - ভ্যারিয়েবল
 - অপারেটর এবং অপারেশন
 - কন্ডিশন
@@ -21,4 +21,4 @@ author: Lenin Hasda
 ------
 
 
-**পরবর্তী লেখা:** [ডেটা এবং ডেটা টাইপ](/post/13_programming-concepts-101-data-and-data-types-bn)
+**পরবর্তী লেখা:** [ডেটা এবং ডেটা টাইপ](/post/programming-concepts-101-data-and-data-types-bn)
