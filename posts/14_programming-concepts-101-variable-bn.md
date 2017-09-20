@@ -1,7 +1,7 @@
 ---
 title: প্রোগ্রামিং কনসেপ্ট ১০১ - ভ্যারিয়েবল
 template: templates/post.pug
-date: 2017-09-11
+date: 2017-09-20
 author: Lenin Hasda
 ---
 
