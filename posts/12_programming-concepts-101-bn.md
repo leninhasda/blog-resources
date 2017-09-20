@@ -20,5 +20,5 @@ author: Lenin Hasda
 
 ------
 
-
 **পরবর্তী লেখা:** [ডেটা এবং ডেটা টাইপ](/post/programming-concepts-101-data-and-data-types-bn)
+
