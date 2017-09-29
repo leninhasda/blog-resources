@@ -3,6 +3,7 @@ title: Installing Sublime Text on Ubuntu
 template: templates/post.pug
 date: 2015-08-17
 author: Lenin Hasda
+keywords: sublime, sublime 2, sublime 3, install, ubuntu
 ---
 
 Here are few guide lines I found to install sublime text in linux ubuntu (also other distro)

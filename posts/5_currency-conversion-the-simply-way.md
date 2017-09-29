@@ -3,6 +3,7 @@ title: Currency Conversion – The Simple Way
 template: templates/post.pug
 date: 2016-05-04
 author: Lenin Hasda
+keywords: algorithm, currency conversion
 ---
 
 Currency conversion is must if you are making any e-commerce project or any other project that deals with money and requires you to process multiple currencies. I found this simple and very handy technique to convert one currency to another in stackexchange that I thought I should keep as reference as well as for those in needs.

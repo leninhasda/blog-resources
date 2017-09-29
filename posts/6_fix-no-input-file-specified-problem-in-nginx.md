@@ -3,6 +3,7 @@ title: Fix “No input file specified” problem in Nginx
 template: templates/post.pug
 date: 2016-06-26
 author: Lenin Hasda
+keywords: nginx, server, nginx config, 404 fix, no input fix
 ---
 
 If you are using nginx server with php there is very good chance of getting **“No input file specified”** error, when you are expecting a **404 Not Found** page.

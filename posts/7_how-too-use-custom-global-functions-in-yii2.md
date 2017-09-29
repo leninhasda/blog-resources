@@ -3,6 +3,7 @@ title: How to use custom global functions in Yii2
 template: templates/post.pug
 date: 2016-08-24
 author: Lenin Hasda
+keywords: yii2, yii2 framework, custom function, function, global function, how to
 ---
 
 I have been using yii2 for over a year now, and it was sad that I could find any simple way to use custom global functions. So far what I did was, make a **component** called **Utils** or **Tools** and put all my function there as static methods. Then when ever I needed them I used them like

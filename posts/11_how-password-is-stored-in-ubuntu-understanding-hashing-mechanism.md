@@ -3,6 +3,7 @@ title: How password is stored in linux - Understanding hashing mechanism
 template: templates/post.pug
 date: 2017-08-26
 author: Lenin Hasda
+keywords: ubuntu, linux, password, password store, password hashing, how
 ---
 
 Have you ever wondered how and where password is stored in your linux machine and how it is checked during the login process ?

@@ -3,6 +3,7 @@ title: How to reset password in Ubuntu
 template: templates/post.pug
 date: 2014-01-06
 author: Lenin Hasda
+keywords: ubuntu, password, reset password, how to
 ---
 Hello and happy new year 😀
 

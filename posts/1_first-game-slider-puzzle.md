@@ -3,6 +3,7 @@ title: "My First Game: Slider Puzzle"
 template: templates/post.pug
 date: 2013-12-05
 author: Lenin Hasda
+keywords: play, game, puzzle, first game program
 ---
 
 # My First Game : Slider Puzzle
