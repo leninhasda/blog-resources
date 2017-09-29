@@ -1,8 +1,11 @@
 ---
 title: প্রোগ্রামিং কনসেপ্ট ১০১ - অপারেটর এবং অপারেশন
 template: templates/post.pug
-date: 2017-09-26
+date: 2017-09-29
 author: Lenin Hasda
+keywords: programming, basics, concept, programming concepts, operators, operations, operand, প্রোগ্রামিং, প্রোগ্রামিং বেসিক, প্রোগ্রামিং কনসেপ্ট, প্রোগ্রামিং ধারনা, অপারেটর, অপারেশন, অপারেন্ড  
+excerpt:
+	অপারেটর (Operator), অপারেশন (Operation), অপারেন্ড (Operand) এই কঠিন কঠিন শব্দ গুলো প্রোগ্রামিং এ কিভাবে যায় সেটাই সহজ করে তুলে ধরার চেষ্টা করেছি এই পোস্টে
 ---
 
 Variable লেখাতে আমরা ছোট্ট একটা অপারেশন (Operation) দেখেছিলাম সেটা হচ্ছে যোগ অপারেশন। ঐ x যে আর y এর মান যে যোগ করতেসিলাম, সেখানে যোগ করাটা ছিল অপারেশন আর `+` ছিল অপারেটর (Operator)। আমরা x আর y কে অপারেন্ড (Operand) বলে থাকি, অর্থাৎ যাদের মদ্ধে Operation টা করা হয়। 
