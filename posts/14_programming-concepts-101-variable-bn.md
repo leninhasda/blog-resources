@@ -45,6 +45,6 @@ print z
 
 ------
 
-**আগের লেখা:** [প্রোগ্রামিং কনসেপ্ট ১০১ - ডেটা এবং ডেটা টাইপ](/post/programming-concepts-101-data-and-data-types-bn)
+**আগের লেখা:** [প্রোগ্রামিং কনসেপ্ট ১০১ - ডেটা এবং ডেটা টাইপ](/post/programming-concepts-101-data-and-data-types-bn)    
 **পরবর্তী লেখা:** [প্রোগ্রামিং কনসেপ্ট ১০১ - অপারেটর এবং অপারেশন](/post/programming-concepts-101-operators-and-operatiorns-bn)
 

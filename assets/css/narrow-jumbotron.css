@@ -3,7 +3,7 @@ body {
   padding-top: 1.5rem;
   padding-bottom: 1.5rem;
   font-family: Georgia;
-  font-size: 21px;
+  /* font-size: 21px; */
   line-height: 1.7;
 }
 .articles .h1, .articles .h2, .articles .h3,
@@ -12,6 +12,7 @@ body {
 .articles h4, .articles h5, .articles h6 {
   font-weight: 700;
 }
+.articles { font-size: 18px; }
 /* Everything but the jumbotron gets side spacing for mobile first views */
 .header,
 .marketing,
@@ -114,9 +115,11 @@ a {
 .post-list a {
   display: block;
   padding: 15px 0 10px 0;
+  transition: all 0.2s ease-in-out;
 }
 .post-list a:hover {
   background-color:  rgba(255, 236, 179, 0.5);
+  transition: all 0.2s ease-in-out;
 }
 pre {
   margin: 20px 0;
@@ -126,3 +129,4 @@ pre {
   padding: 15px;
   font-family: Consolas, Courier, monospace;
 }
+
