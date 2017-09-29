@@ -43,7 +43,7 @@ body {
 /* Customize container */
 @media (min-width: 48em) {
   .container {
-    max-width: 60%;
+    max-width: 850px;
   }
 }
 .container-narrow > hr {
