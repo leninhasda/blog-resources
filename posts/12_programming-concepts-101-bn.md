@@ -15,7 +15,7 @@ excerpt:
 - [ডেটা এবং ডেটা টাইপ](/post/programming-concepts-101-data-and-data-types-bn)
 - [ভ্যারিয়েবল](/post/programming-concepts-101-variable-bn)
 - [অপারেটর এবং অপারেশন](/post/programming-concepts-101-operators-and-operatiorns-bn)
-- কন্ডিশন
+- [কন্ডিশন](/post/programming-concepts-101-condition-bn)
 - লুপ
 - ফাংশন
 - ক্লাস
