@@ -115,6 +115,6 @@ else if choise = 5 // ভাগশেষ
 ------
 
 **আগের লেখা:** [প্রোগ্রামিং কনসেপ্ট ১০১ - অপারেটর এবং অপারেশন](/post/programming-concepts-101-operators-and-operatiorns-bn)    
-**পরবর্তী লেখা:** প্রোগ্রামিং কনসেপ্ট ১০১ - লুপ
+**পরবর্তী লেখা:** [প্রোগ্রামিং কনসেপ্ট ১০১ - লুপ](/post/programming-concepts-101-loop-bn)
 
 

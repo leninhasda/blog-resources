@@ -72,8 +72,8 @@ variable update
 ```
 initialize condition variable
 while condition is true
-  do the work
-  update condition variable
+	do the work
+	update condition variable
 ```
 
 
@@ -82,7 +82,7 @@ for loop খুব সম্ভবত সব থেকে বেশি ব্য
 
 ```
 for initialization part; condition check; update variable
-  do the work
+	do the work
 ```
 
 দেখতে একটু জটিল তাই না? লুপের ৪টা অংশ খুজে বের করা যাক! এখানে `for` লেখা দিয়ে শুরু হয় তারপর ৩টা অংশ থাকে যেটা দুটি সেমিকোলন `;` দিয়ে আলাদা থাকে। প্রথমটি initialization পার্ট, দ্বিতীয়টি condition চেকিং পার্ট আর শেষটি update পার্ট। তারপর নিচে কাজটা যেটা আমরা করতে চাই।    
@@ -92,7 +92,7 @@ for initialization part; condition check; update variable
 
 ```
 for current_time = 6:30; current_time < 8:30; current_time = current_time + 10 minute
-  keep reading
+	keep reading
 ```
 
 উপরে খুবই অল্প করে লুপ বুঝানোর চেস্টা করলাম, অনেকের মাঝে একটা প্রশ্ন থেকে যায় সেটা হল কখন কোনটা করবো? আমার কাছে ভালো উত্তর হল - যখন যেটা দরকার এবং সোজা মনে হয়।
@@ -109,8 +109,8 @@ for current_time = 6:30; current_time < 8:30; current_time = current_time + 10 m
 ```
 run_program = True // প্রথমে বলে নিলাম যে প্রোগ্রাম রান করতে চাই
 while run_program is True
-  run calculator program // আমাদের পুরো ক্যাল্কুলেটর পার্ট এখানে হবে, মানে কাজটা
-  update run_program // user ঠিক করবে যে সে আবার প্রোগ্রাম রান করবে কি না
+	run calculator program // আমাদের পুরো ক্যাল্কুলেটর পার্ট এখানে হবে, মানে কাজটা
+	update run_program // user ঠিক করবে যে সে আবার প্রোগ্রাম রান করবে কি না
 ```
 
 এবার পুরোটা দেখি কেমন হয় -
@@ -118,46 +118,51 @@ while run_program is True
 ```
 run_program = True
 while run_program is True
-  [1] যোগ
-  [2] বিয়োগ
-  [3] গুন
-  [4] ভাগ
-  [5] ভাগশেষ
-  [0] বন্ধ করবো
 
-  অই ভাই, কোনটা করবেন?
+	[1] যোগ
+	[2] বিয়োগ
+	[3] গুন
+	[4] ভাগ
+	[5] ভাগশেষ
+	[0] বন্ধ করবো
 
-  choise = user choise input
+	অই ভাই, কোনটা করবেন?
 
-  if choise = 0 // user প্রোগ্রাম বন্ধ করতে চাই
-    run_program = False
-  else
-    x = users first input data
-    y = users second input data
+	choise = user choise input
 
-    if choise = 1 // যোগ
-    	z = x + y
-    	print z
+	if choise = 0 // user প্রোগ্রাম বন্ধ করতে চাই
+		run_program = False
 
-    else if choise = 2 // বিয়োগ
-    	z = x - y
-    	print z
+	else // বন্ধ না হলে ক্যাল্কুলেটর চলত থাকবে
+		x = users first input data
+		y = users second input data
 
-    else if  choise = 3 // গুন
-    	z = x * y
-    	print z
+		if choise = 1 // যোগ
+			z = x + y
+			print z
 
-    else if choise = 4 // ভাগ
-    	z = x / y
-    	print z
+		else if choise = 2 // বিয়োগ
+			z = x - y
+			print z
 
-    else if choise = 5 // ভাগশেষ
-    	z = x % y
-    	print z
+		else if  choise = 3 // গুন
+			z = x * y
+			print z
+
+		else if choise = 4 // ভাগ
+			z = x / y
+			print z
+
+		else if choise = 5 // ভাগশেষ
+			z = x % y
+			print z
 ```
-শেষ! এখনে user কে যোগ, বিয়োগ ... এর পাশে যে 1, 2, 3 ... সংখ্যা গুলো আছে সেটার যে কোন একটি choise হিসেবে দিতে হবে। এখন যদি আমরা এটা রান করি তাহলে user যা চাচ্ছে শুধু সেটাই করে দেখান হবে।
+
+এখানে user প্রোগ্রাম বন্ধ করতে চাই কিনা সেটা জানার জন্য একটা শূন্য `0` input হিসেবে নিতেসি এবং সেটা শুরুতে চেক করতেসি যে user শূন্য `0` দিসে কি না। দিলে run_program কে আমরা False করে দিতেসি। ফলে পরের বার যখন while এর condition এ run_program চেক হবে তখন False পাবে এবং প্রোগ্রাম বন্ধ হবে।
+
+আমাদের ছোট্ট ক্যাল্কুলেটরের পুরো কাজ কিন্তু শেষ! :D
 
 ------
 
-**আগের লেখা:** [প্রোগ্রামিং কনসেপ্ট ১০১ - অপারেটর এবং অপারেশন](/post/programming-concepts-101-operators-and-operatiorns-bn)    
-**পরবর্তী লেখা:** প্রোগ্রামিং কনসেপ্ট ১০১ - লুপ
+**আগের লেখা:** [প্রোগ্রামিং কনসেপ্ট ১০১ - কন্ডিশন](/post/programming-concepts-101-condition-bn)      
+**পরবর্তী লেখা:** প্রোগ্রামিং কনসেপ্ট ১০১ - ফাংশন

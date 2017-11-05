@@ -16,12 +16,9 @@ excerpt:
 - [ভ্যারিয়েবল](/post/programming-concepts-101-variable-bn)
 - [অপারেটর এবং অপারেশন](/post/programming-concepts-101-operators-and-operatiorns-bn)
 - [কন্ডিশন](/post/programming-concepts-101-condition-bn)
-- লুপ
+- [লুপ](/post/programming-concepts-101-loop-bn)
 - ফাংশন
-- ক্লাস
-
 
 ------
 
 **পরবর্তী লেখা:** [প্রোগ্রামিং কনসেপ্ট ১০১ - ডেটা এবং ডেটা টাইপ](/post/programming-concepts-101-data-and-data-types-bn)
-
