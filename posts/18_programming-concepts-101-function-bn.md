@@ -1,7 +1,7 @@
 ---
 title: প্রোগ্রামিং কনসেপ্ট ১০১ - ফাংশন
 template: templates/post.pug
-date: 2017-11-07
+date: 2017-11-08
 author: Lenin Hasda
 keywords: programming, basics, concept, programming concepts, function, প্রোগ্রামিং, প্রোগ্রামিং বেসিক, প্রোগ্রামিং কনসেপ্ট, প্রোগ্রামিং ধারনা, ফাংশন
 excerpt:
@@ -97,7 +97,7 @@ function get_user_input()
 
 	অই ভাই, কোনটা করবেন?
 	choise = user choise input
-	
+
 	return choise
 ```
 
