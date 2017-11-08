@@ -165,4 +165,4 @@ while run_program is True
 ------
 
 **আগের লেখা:** [প্রোগ্রামিং কনসেপ্ট ১০১ - কন্ডিশন](/post/programming-concepts-101-condition-bn)      
-**পরবর্তী লেখা:** প্রোগ্রামিং কনসেপ্ট ১০১ - ফাংশন
+**পরবর্তী লেখা:** [প্রোগ্রামিং কনসেপ্ট ১০১ - ফাংশন](/post/programming-concepts-101-function-bn)
