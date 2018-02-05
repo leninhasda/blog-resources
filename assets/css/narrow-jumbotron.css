@@ -5,6 +5,7 @@ body {
   font-family: Georgia;
   /* font-size: 21px; */
   line-height: 1.7;
+  color: red;
 }
 .articles .h1, .articles .h2, .articles .h3,
 .articles .h4, .articles .h5, .articles .h6,
