@@ -14,7 +14,7 @@ I had a main domain and couple of subdomain and during setup when it prompt for 
 
 Now after a year when I tried to update SSL I was getting error because of that deleted domain, it's certification information was still in that single configuration file. And according to [this thread](https://community.letsencrypt.org/t/how-to-delete-a-subdomain/22517/3) it's known limitation of Certbot that it's not possible to remove a domain from the certification file.
 
-## So here's how I solved the issue for my case:
+So here's how I solved the issue for my case:
 
 **Step 1 - Always make a backup just in case**
 ```
@@ -53,7 +53,7 @@ sudo certbot --nginx -d sub2.example.com
 # etc ...
 ```
 
-**Step 5 - Reload Nginx**
+**Step 5 - Reload Nginx**          
 One last step was to reload the nginx server.
 ```     
 sudo service nginx reload
@@ -62,7 +62,7 @@ sudo service nginx reload
 This worked for me and I am pretty sure I can updated each domain and subdomain separately from now on.
 
 
-### Related reads:
+#### Related reads:
 - [Let's Encrypt](https://letsencrypt.org/)
 - [Certbot](https://certbot.eff.org/)
 - [Secure Nginx with Let's Encrypt on Digital Ocean](https://www.digitalocean.com/community/tutorials/how-to-secure-nginx-with-let-s-encrypt-on-ubuntu-16-04#step-5-%E2%80%94-verifying-certbot-auto-renewal)
