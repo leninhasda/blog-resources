@@ -16,4 +16,5 @@ block content
                         a(href=post.link)
                             h4
                                 !=post.title
-                                time(class="text-muted")=" / Published " + post.date
+                            p
+                                time(class="text-muted")="Published on" + post.date
