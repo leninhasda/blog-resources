@@ -10,7 +10,7 @@ excerpt:
 
 There where few occasions when I wanted to know the total number of files in any given directory. Well the default file manager shipped with the OS does give you a count of files on current directory, but not recursively. That is if you have folder(s) on the current directory and files within them that count is not shown. But I wanted to know the whole number.
 
-So I wrote following Python script which goes through given folder(s) and folder(s) within them recursively count files and give me the total number.
+So I wrote following Python script which goes through given folder(s) and folder within them recursively, count files and give me the total number.
 
 <script src="https://gist.github.com/leninhasda/0414792e7d65f526ce078f7af932b5af.js"></script>
 
@@ -31,23 +31,23 @@ count-files ~/Downloads # count files in Download directory
 ```
 
 #### Alternatives?
-After few searching I did find some linux command to do this same task. One of which was using `ls` command combined with `wc` like this:
+After few searching I did find some linux command to do this same task. One of which was using `ls` command combined with `wc` command like this:
 
 ```
 ls ~/Downloads | wc -l
 ```
-Aka list the files in `Downloads` directory and only give me the count of lines (pipe `wc -l`). Great! Now do that recursively, which I actually want:
+Aka list the files in `Downloads` directory and only give me the count of lines (pipe `wc -l`). Great! Now do that recursively, which is what I actually want:
 
 ```
 ls -R ~/Downloads | wc -l
 ```
-Ahhh... wait the answer is wired! It's not correct! Because `ls` command also prints/lists directory as well! Which is why that wired number.
+Ahhh... wait, the answer is wired! It's not correct! Because `ls` command also prints/lists directory as well! And it has its own special format to print them. So when `wc` tries to count number of lines the result is way bigger number than actual result.
 
 Alternative 2, the awesome `find` command. Something like this:
 ```
 find ~/Downloads -type f | wc -l
 ```
-That is find every file type in `Downloads` directory and it's recursive, then give me the total number. Sweet! Event better
+That is find every file type in `Downloads` directory, recursively, then give me the total number. Sweet! Event better
 ```
 find ~/Downloads ~/Documents -type f | wc -l
 ```
