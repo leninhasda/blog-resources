@@ -58,3 +58,8 @@ I did noticed few things:
 1. `find` command is way faster then my script
 2. `find` is giving slightly less number than my script and when I checked the diff of their file listings, surprisingly `find` wasn't listing few files! Don't really know why?!
 3. Am planning to add few more flags for listing the files instead of just showing the total number.
+
+---
+
+#### Related
+- [Making a command line tool using Python](http://blog.leninhasda.me/post/making-a-command-line-tool-using-python)
