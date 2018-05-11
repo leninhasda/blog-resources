@@ -151,4 +151,4 @@ As promised here is the upgraded version of `count-files` script. First upgrade 
 ---
 
 #### Related
-- [Recursively counting files in directories using Python Script](http://blog.leninhasda.me/post/recursively-counting-files-in-directories-using-python)
+- [Recursively counting files in directories using Python Script](https://blog.leninhasda.me/post/recursively-counting-files-in-directories-using-python)

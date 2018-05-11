@@ -62,4 +62,4 @@ I did noticed few things:
 ---
 
 #### Related
-- [Making a command line tool using Python](http://blog.leninhasda.me/post/making-a-command-line-tool-using-python)
+- [Making a command line tool using Python](https://blog.leninhasda.me/post/making-a-command-line-tool-using-python)
