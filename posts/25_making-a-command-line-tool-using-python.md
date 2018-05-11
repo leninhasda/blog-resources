@@ -107,6 +107,35 @@ parser.add_argument('b', help='second value', type=int)
 Sweet!
 ![sub command](/img/25-commands.png)
 
+Here's the final code:
+
+```python
+#!/usr/bin/env python
+
+import argparse
+
+# instantiate parser object
+parser = argparse.ArgumentParser()
+
+# add command line options here
+parser.add_argument('command', help='operation name: add or sub')
+parser.add_argument('a', help='first value', type=int)
+parser.add_argument('b', help='second value', type=int)
+
+# then parse the cli options
+args = parser.parse_args()
+
+# finally process `args`
+if args.command == 'add':
+	print(args.a + args.b)
+elif args.command == 'sub':
+	print(args.a - args.b)
+else:
+	print('wrong command. should be either "add" or "sub"')
+
+```
+
+
 ### Thoughts and todos
 The goal of this article was to show you how easy it is to make command line tools using `argparse` module in python. There are more advanced features than what we saw here, like default values, grouping commands and sub commands and more. I will leave that to you guys to discover for yourself and here is the [full documentation of the module (https://docs.python.org/3/library/argparse.html)](https://docs.python.org/3/library/argparse.html) to get started!
 
